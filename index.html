@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width" />
 		<title>Webクリップ一覧by苔</title>
-	<meta name="description" content=""/>
+		<meta name="description" content=""/>
 	</head>
 	<body>
 		<header>
@@ -23,35 +23,21 @@
 				<li><a href="KOKE_WORKS/KOKE_TWITTER.mobileconfig" download>Twitter</a></li>
 				<li><a href="KOKE_WORKS/KOKE_DISCORD.mobileconfig" download>Discord</a></li>
 				<li><a href="KOKE_WORKS/KOKE_AMAZON.mobileconfig" download>Amazon</a></li>
-				<!--li><a href="https://www.dropbox.com/s/oipqt5vantp83kp/KOKE_GOOGLE.mobileconfig?dl=1">Google</a></li>
-				<li><a href="https://www.dropbox.com/s/oipqt5vantp83kp/KOKE_GOOGLE.mobileconfig?dl=1">Google(2つ目)</a></li>
-				<li><a href="https://www.dropbox.com/s/jz8dxusdtnpqp3n/KOKE_YOUTUBE.mobileconfig?dl=1">YouTube</a></li>
-				<li><a href="https://www.dropbox.com/s/v5dukxryf3eqspz/KOKE_TWITTER.mobileconfig?dl=1">Twitter</a></li>
-				<li><a href="https://www.dropbox.com/s/nkou2gppp6xaqcl/KOKE_DISCORD.mobileconfig?dl=1">Discord</a></li>
-				<li><a href="https://www.dropbox.com/s/jmg75esjrew1cez/KOKE_AMAZON.mobileconfig?dl=1">Amazon</a></li-->
 			</ul>
 			<p>追加の要望は苔まで</p>
 			<hr>
-			<!--カウンター画像からは配布サイトへリンクが設定されています。また、誤作動、誤表示の原因となりますのでコードの改変、改行は行わないで下さい。
-このコメント部分は削除して頂いても結構です。-->
-<img src="https://www.f-counter.net/j/46/1631671631/" alt="アクセスカウンター">
-<input type="button" value="button1" id="mybtn1">
-
-			<!--タグはここから--table border="0" cellspacing="0" cellpadding="0"><tr><td align="center"><img src="http://www.rays-counter.com/d492_f6_001/614152707727e/" alt="アクセスカウンター" border="0"></td></tr><tr><td align="center"></td></tr></table><!--ここまで-->
-			<!--img src="https://www.f-counter.net/j/46/1631670333/" alt="アクセスカウンター">
-
+			<img src="https://www.f-counter.net/j/46/1631671631/" alt="アクセスカウンター">
+			<input type="button" value="button1" id="mybtn1">
 		</div>
  		<script>
-			const url = 'https://google.com'
-			function lol {
-				while(1==1) {
-					window.open(url, '_blank');
-				}
+		let button1 = document.getElementById('mybtn1');
+		button1.addEventListener('click', () => {
+			for (let step = 0; step < 5; step++) {
+  		// 値が 0 から 4 まで計 5 回実行される
+
+  			open('https://www.google.co.jp/'+String(step), '_blank');
 			}
-			let button1 = document.getElementById('mybtn1');
-			button1.addEventListener('click', () => {
-			    lol();
-			});
+		});
 		</script>
 	</body>
 </html>
