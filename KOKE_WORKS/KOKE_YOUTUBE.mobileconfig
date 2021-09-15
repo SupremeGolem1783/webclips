@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>FullScreen</key>
+				<true />
+				<key>Icon</key>
+				<data>iVBORw0KGgoAAAANSUhEUgAAAJgAAACYCAMAAAAvHNATAAABAlBMVEX/////4+P/39//19f/v7//29v/5+f/z8//tLT/oKD/mJj/gID/fHz/YGD/WFj/QED/ICD/AAD/BAT/JCT/XFz/nJz/uLj/09P/6+v/vLz/kJD/aGj/SEj/NDT/HBz/ODj/TEz/bGz/lJT/w8P/7+//FBT/ZGT/x8f/MDD/+/v/8/P/PDz/VFT/jIz/CAj/UFD/hIT/DAz/sLD/dHT/EBD/y8v/LCz/T0//u7v/l5f/a2v/iIj/Q0P/s7P/9/f/h4f/Y2P/p6f/f3//V1f/m5v/GBj/d3f/S0v/KCj/n5//W1v/g4P/i4v/t7f/R0f/b2//cHD/rKz/RET/qKj/pKT/eHhhElWoAAAAHGlET1QAAAACAAAAAAAAAEwAAAAoAAAATAAAAEwAAAG3GujohQAAAYNJREFUeNrs2ElXwjAQwPERylKhJFN2FQRBbAURFxA33Jfv/4k86dVMSublMP9bL3m/19ek0wJIkiRJkiRJkiRJkiRJkiRJ3raT+y0fBIW/iyKfoFgKyuFupRpFNaWU1lrjf8Va67pSqhFFlUozbAXtzhZBne7e/kGvj1tKHw6GR6NxVlW3cYxO6k9OMrBaCTpM2dLSCbotrlq5TqfovFlqcb8YXIg1OmyILJ1RXQGPC+d5IixhguE58fxCtgok2IQPtiDB+nywKen9yOfCCwrskhGGJQKsyglrEmAzTtiVj6cY9SS75oQlfm5K0rZcssLQfM5u8cJyxrCQsOrqJjNsZAxbUCZ3WK8ywspOhkQFkN5m28WhMSyiwQDGd3EG2L0xbECFAbQf7GHmH0uKDgN4rNvCImPYygYGmyfLR21gDNNWMIDis90nuXMYwHLqFJZl1Rf6VJ6wwGDzOqf+meKBAeTePIUBjHqewiB9/yCswQgDGH/GfsIACl+ewgDW3/awHwAAAP//RE0pPgAAAZdJREFU7dhbT8JAEIbhYUGwlNqdghoVokG0KTUYgdZjGr3A4Bk8/P+/4pUmJmp2tnTCxbx3vfnyJM12kwL8EhLy4e/KV2YbYNpiYL2LAJcQFp2PjTc4YWcpYYMPtnJKmRhzwXq3A8oCaibY3QSxINhJDljYQSwMpq1hpXukFxcOyx4GFq5/v9E/m9qt3mi0qm0M821gtRgt84xha3RY9TqwdeGOMeyQCosex2ifawxzibCnJubp0hi2TYKVnzFfjjHMIax2XoKcLqwYwyrI2qYxLOGFVY1hVVbXAKCQWzx3KQGWcsL2CLBjTtiMABtxwroE2JwTlhBgJc5DGRFgcMAH61Bc0OKDNUiwIR+sRoJFTS6XD7S4zmUQEmFwxAMbUV3Qn7K8yIgMgyqDLO6DRb3Xol2tDOyqT4pkNedgXVaPizqN7bcIctVP1mft6QKvqEm6N3qvZbCgIhUOna774bV8f1dr878UgdY69n3Pa7h1ZzVRwJBSSqn9ylcbjrP1/RAqpVQJJEmSJEmSJEmSJEmSJEmSpGXsE6g0JW/CkxT+AAAAAElFTkSuQmCC</data>
+				<key>Label</key>
+				<string>YouTube</string>
+				<key>PayloadDisplayName</key>
+				<string>Web Clip #1</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.webClip.managed</string>
+				<key>PayloadType</key>
+				<string>com.apple.webClip.managed</string>
+				<key>PayloadUUID</key>
+				<string>e37b9dae-8c8b-4294-887c-f5d1d88edc47</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>Precomposed</key>
+				<true />
+				<key>URL</key>
+				<string>https://youtube.com</string>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>YouTube追加</string>
+		<key>PayloadDisplayName</key>
+		<string>KOKE_YOUTUBE</string>
+		<key>PayloadIdentifier</key>
+		<string>LENOVO-PC.9f9c3f4d-bf71-4cf9-9384-1e9e93dfd047</string>
+		<key>PayloadOrganization</key>
+		<string>made by koke</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>aa61473d-26c0-4d45-96d3-1ebd84b784eb</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>
