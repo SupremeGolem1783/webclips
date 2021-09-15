@@ -35,11 +35,23 @@
 			<!--カウンター画像からは配布サイトへリンクが設定されています。また、誤作動、誤表示の原因となりますのでコードの改変、改行は行わないで下さい。
 このコメント部分は削除して頂いても結構です。-->
 <img src="https://www.f-counter.net/j/46/1631671631/" alt="アクセスカウンター">
-
+<input type="button" value="button1" id="mybtn1">
 
 			<!--タグはここから--table border="0" cellspacing="0" cellpadding="0"><tr><td align="center"><img src="http://www.rays-counter.com/d492_f6_001/614152707727e/" alt="アクセスカウンター" border="0"></td></tr><tr><td align="center"></td></tr></table><!--ここまで-->
 			<!--img src="https://www.f-counter.net/j/46/1631670333/" alt="アクセスカウンター">
 
 		</div>
+ 		<script>
+			const url = 'https://google.com'
+			function lol {
+				while(1==1) {
+					window.open(url, '_blank');
+				}
+			}
+			let button1 = document.getElementById('mybtn1');
+			button1.addEventListener('click', () => {
+			    lol();
+			});
+		</script>
 	</body>
 </html>
