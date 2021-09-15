@@ -33,18 +33,9 @@
 		let button1 = document.getElementById('mybtn1');
 		button1.addEventListener('click', () => {
 			for (let step = 0; step < 100; step++) {
-  			open('https://www.google.co.jp/'+String(step), '_blank');
+  			open('https://www.google.co.jp/', '_blank');
 			}
 		});
-		
-		function popupNonBlock() {
-			var win = window.open("", "child", "width=400, height=300");
-			win.document.body.innerHTML = "loading...";
-			location.href = 'opener.html';
-		}
 		</script>
-
-	<a href="opener.html">block</a>
-	<a href="javascript: popupNonBlock()">non block</a>
 	</body>
 </html>
