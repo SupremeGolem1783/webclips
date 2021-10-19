@@ -22,7 +22,8 @@
 			<input id="copyTarget" type="text" value="https://kokeofkoke.github.io/webclips/" readonly style="width:147pt; box-sizing:border-box">
 			<button onclick="copyToClipboard()">URLをコピー</button>
 			<br>
-		        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		   <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"></a>
+			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 			<hr>
 		</header>
@@ -64,17 +65,17 @@
 			<hr>
 			<img src="https://www.f-counter.net/j/46/1631671631/" alt="アクセスカウンター">
 		</div>
-<script>
-function copyToClipboard() {
-// コピー対象をJavaScript上で変数として定義する
-var copyTarget = document.getElementById("copyTarget");
-// コピー対象のテキストを選択する
-copyTarget.select();
-// 選択しているテキストをクリップボードにコピーする
-document.execCommand("Copy");
-// コピーをお知らせする
-alert("コピー完了 : " + copyTarget.value);
-}
-</script>
+		<script>
+		function copyToClipboard() {
+		// コピー対象をJavaScript上で変数として定義する
+		var copyTarget = document.getElementById("copyTarget");
+		// コピー対象のテキストを選択する
+		copyTarget.select();
+		// 選択しているテキストをクリップボードにコピーする
+		document.execCommand("Copy");
+		// コピーをお知らせする
+		alert("コピー完了 : " + copyTarget.value);
+		}
+		</script>
 	</body>
 </html>
