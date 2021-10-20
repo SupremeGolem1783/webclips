@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>        <dict>
+      <key>UserDefinedName</key>
+      <string>KOKE_VPN</string>
+      <key>PayloadDisplayName</key>
+      <string>KOKE_VPN</string>
+      <key>PayloadIdentifier</key>
+      <string>com.vpn.vpn1</string>
+      <key>PayloadUUID</key>
+      <string>0FAF8C56-86E4-671E-D21C-8B74ED121722</string>
+      <key>VPNType</key>
+      <string>L2TP</string>
+      <key>IPSec</key>
+      <dict>
+        <key>AuthenticationMethod</key>
+        <string>SharedSecret</string>
+        <key>LocalIdentifierType</key>
+        <string>KeyID</string>
+        <key>SharedSecret</key>
+        <string>vpn</string>
+      </dict>
+      <key>PPP</key>
+      <dict>
+        <key>AuthName</key>
+        <string>vpn</string>
+        <key>AuthPassword</key>
+        <string>vpn</string>
+        <key>CommRemoteAddress</key>
+        <string>public-vpn-162.opengw.net</string>
+      </dict>
+      <key>OnDemandEnabled</key>
+   <integer>0</integer>
+         <key>OverridePrimary</key>
+      <true/>
+      <key>IPv4</key>
+      <dict>
+        <key>OverridePrimary</key>
+        <integer>1</integer>
+      </dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+    </dict>
+</array>
+  <key>PayloadDisplayName</key>
+  <string>KOKE_VPN</string>
+  <key>PayloadIdentifier</key>
+  <string>0244EECD-152E-79FF-B355-BDB90416B787</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>02212DE3-3382-AF9D-A687-8E09BBF8AFAC</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
