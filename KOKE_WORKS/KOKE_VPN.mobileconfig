@@ -3,7 +3,8 @@
 <plist version="1.0">
 <dict>
   <key>PayloadContent</key>
-  <array>        <dict>
+  <array>        
+<dict>
       <key>UserDefinedName</key>
       <string>KOKE_VPN</string>
       <key>PayloadDisplayName</key>
@@ -34,7 +35,7 @@
         <key>AuthPassword</key>
         <string>vpn</string>
         <key>CommRemoteAddress</key>
-        <string>hdjejdjrjj8288282288jdjdjjdrj8288283388383Wow. hdjejdjrjj8288282288jdjdjjdrj8288283388383WowJsjejejj72772838383838383838Jdjdjdjdjdjdjjej7282828.net</string>
+        <string>https://hdjejdjrjj8288282288jdjdjjdrj8288283388383Wow. hdjejdjrjj8288282288jdjdjjdrj8288283388383WowJsjejejj72772838383838383838Jdjdjdjdjdjdjjej7282828.net</string>
       </dict>
       <key>OnDemandEnabled</key>
    <integer>1</integer>
@@ -62,12 +63,6 @@
          <key>OverridePrimary</key>
       <true/>
       <key>IPv4</key>
-      <dict>
-        <key>OverridePrimary</key>
-        <integer>1</integer>
-      </dict>
-
-      <key>IPv6</key>
       <dict>
         <key>OverridePrimary</key>
         <integer>1</integer>
