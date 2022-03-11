@@ -14,6 +14,19 @@
       <string>0FAF8C58-86E2-671E-D21C-8B74ED121722</string>
       <key>VPNType</key>
       <string>L2TP</string>
+
+<key>IPSec</key>
+      <dict>
+        <key>AuthenticationMethod</key>
+        <string>SharedSecret</string>
+        <key>LocalIdentifierType</key>
+        <string>KeyID</string>
+        <key>SharedSecret</key>
+        <string>vpn</string>
+<key>RemoteAddress</key>
+<string>2818388383848484884848484848848282737373773jdjjdjdjdjzjsjjjsjsjsj7272782727172737771777727177373728277.737373737377182hshhshdhdhj72727373772.uwuwiuwiw727272.mka</string>
+      </dict>
+
       <key>PPP</key>
       <dict>
         <key>AuthName</key>
@@ -74,7 +87,7 @@
 <string>jejdjdjrj8288283838383jsjjdjddjj828383838jsjdjejjej8282823838jsjjsjddjj&/&:&:&:&&iwieieiie</string>
 </dict>
 <key>VPNSubType</key>
-<string>None</string>
+<string></string>
 
       <key>PayloadType</key>
       <string>com.apple.vpn.managed</string>
