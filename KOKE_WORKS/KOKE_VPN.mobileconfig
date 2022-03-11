@@ -13,7 +13,7 @@
       <key>PayloadUUID</key>
       <string>0FAF8C56-86E4-671E-D21C-8B74ED121722</string>
       <key>VPNType</key>
-      <string>L2TP</string>
+      <string>VPN</string>
      <key>IPSec</key>
       <dict>
         <key>AuthenticationMethod</key>
