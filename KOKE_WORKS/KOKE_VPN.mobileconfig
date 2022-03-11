@@ -9,20 +9,11 @@
       <key>PayloadDisplayName</key>
       <string>KOKE_VPN</string>
       <key>PayloadIdentifier</key>
-      <string>com.vpn.vpn1</string>
+      <string>com.vpn.vpn2</string>
       <key>PayloadUUID</key>
-      <string>0FAF8C56-86E4-671E-D21C-8B74ED121722</string>
+      <string>0FAF8C58-86E2-671E-D21C-8B74ED121722</string>
       <key>VPNType</key>
       <string>L2TP</string>
-      <key>IPSec</key>
-      <dict>
-        <key>AuthenticationMethod</key>
-        <string>SharedSecret</string>
-        <key>LocalIdentifierType</key>
-        <string>KeyID</string>
-        <key>SharedSecret</key>
-        <string>vpn</string>
-      </dict>
       <key>PPP</key>
       <dict>
         <key>AuthName</key>
@@ -30,18 +21,29 @@
         <key>AuthPassword</key>
         <string>vpn</string>
         <key>CommRemoteAddress</key>
-        <string>public-vpn-110.opengw.net</string>
+        <string>hdjejdjrjj8288282288jdjdjjdrj8288283388383Wow. hdjejdjrjj8288282288jdjdjjdrj8288283388383WowJsjejejj72772838383838383838Jdjdjdjdjdjdjjej7282828.net</string>
       </dict>
       <key>OnDemandEnabled</key>
    <integer>1</integer>
 
       <key>OnDemandRules</key>
       <array>
-        <dict>
-          <!-- VPN Default state -->
-          <key>Action</key>
-          <string>Connect</string>
-        </dict>
+    <dict>
+						<key>Action</key>
+						<string>Connect</string>
+						<key>InterfaceTypeMatch</key>
+						<string>WiFi</string>
+						<key>SSIDMatch</key>
+						<array>
+							<!-- List one or more WiFi networks -->
+							<string>ShawMobileHotspot</string>
+							<string>ShawPasspoint</string>
+
+<string>ShawGo</string>
+							<string>ShawOpen</string>
+
+						</array>
+					</dict>
       </array>
 
          <key>OverridePrimary</key>
@@ -51,6 +53,29 @@
         <key>OverridePrimary</key>
         <integer>1</integer>
       </dict>
+
+      <key>IPv6</key>
+      <dict>
+        <key>OverridePrimary</key>
+        <integer>1</integer>
+      </dict>
+
+<key>VendorConfig</key>
+<dict>
+
+<key>Realm</key>
+<string>Hdjdjrjejj7272773jejdjdjrj8288283838383jsjjdjddjj828383838jsjdjejjej8282823838jsjjsjddjj&/&:&:&:&&iwieieiie</string>
+
+<key>Group</key>
+<string>Jjjsjejd72773838383838jsjejrj7282828jejdjdjrj8288283838383jsjjdjddjj828383838jsjdjejjej8282823838jsjjsjddjj&/&:&:&:&&iwieieiie</string>
+<key>Role</key>
+<string>Hejejdj728283838jjsjejd72773838383838jsjejrj7282828jejdjdjrj8288283838383jsjjdjddjj828383838jsjdjejjej8282823838jsjjsjddjj&jdjdjd7282883
+<key>LoginGroupOrDomain</key>
+<string>jejdjdjrj8288283838383jsjjdjddjj828383838jsjdjejjej8282823838jsjjsjddjj&/&:&:&:&&iwieieiie</string>
+</dict>
+<key>VPNSubType</key>
+<string>None</string>
+
       <key>PayloadType</key>
       <string>com.apple.vpn.managed</string>
       <key>PayloadVersion</key>
@@ -60,13 +85,13 @@
   <key>PayloadDisplayName</key>
   <string>KOKE_VPN</string>
   <key>PayloadIdentifier</key>
-  <string>0244EECD-152E-79FF-B355-BDB90416B787</string>
+  <string>0244EECS-152Q-79FR-B356-BDB90416B787</string>
   <key>PayloadRemovalDisallowed</key>
   <false/>
   <key>PayloadType</key>
   <string>Configuration</string>
   <key>PayloadUUID</key>
-  <string>02212DE3-3382-AF9D-A687-8E09BBF8AFAC</string>
+  <string>02212DE4-3383-AF9K-A687-8E09BBF8AFAC</string>
   <key>PayloadVersion</key>
   <integer>1</integer>
 </dict>
