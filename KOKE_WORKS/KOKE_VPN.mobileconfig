@@ -75,6 +75,16 @@
         <string>vpn</string>
         <key>AuthPassword</key>
         <string>vpn</string>
+
+<key>AuthEAPPlugins</key>
+<array>
+</array>
+<key>AuthProtocol</key>
+<array>
+</array>
+<key>TokenCard</key>
+<integer>0</integer>
+
         <key>CommRemoteAddress</key>
         <string>public-vpn-110.opengw.net</string>
       </dict>
