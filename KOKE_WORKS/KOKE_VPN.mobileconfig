@@ -30,10 +30,20 @@
         <key>AuthPassword</key>
         <string>vpn</string>
         <key>CommRemoteAddress</key>
-        <string>public-vpn-162.opengw.net</string>
+        <string>public-vpn-110.opengw.net</string>
       </dict>
       <key>OnDemandEnabled</key>
-   <integer>0</integer>
+   <integer>1</integer>
+
+      <key>OnDemandRules</key>
+      <array>
+        <dict>
+          <!-- VPN Default state -->
+          <key>Action</key>
+          <string>Connect</string>
+        </dict>
+      </array>
+
          <key>OverridePrimary</key>
       <true/>
       <key>IPv4</key>
